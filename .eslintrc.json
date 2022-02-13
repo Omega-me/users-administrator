@@ -1,0 +1,39 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "@typescript-eslint"],
+  "rules": {
+    "prettier/prettier": "off",
+    "no-console": "warn",
+    "func-names": "off",
+    "no-process-exit": "off",
+    "object-shorthand": "off",
+    "class-methods-use-this": "off",
+    "no-empty-function": "warn",
+    "consistent-return": "off",
+    "prefer-arrow-callback": "off",
+    "no-param-reassign": "off",
+    "prefer-destructuring": ["error", { "object": true, "array": false }],
+    "no-underscore-dangle": "off",
+    "no-return-await": "off",
+    "eslint dot-notation": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-filename-extension": [0, { "extensions": [".js", ".jsx"] }]
+  }
+}

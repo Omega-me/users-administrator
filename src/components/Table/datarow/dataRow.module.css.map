@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAC;EACT,KAAK,EAAE,IAAI;CACZ",
+    "sources": [
+        "dataRow.module.scss"
+    ],
+    "names": [],
+    "file": "dataRow.module.css"
+}
