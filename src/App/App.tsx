@@ -12,9 +12,10 @@ function App() {
   const dispatch = useAppDispatch();
 
   useEffect(() => {
-    setTimeout(() => {
+    
+//     setTimeout(() => {
       dispatch(getUsers());
-    }, 1000);
+//     }, 1000);
   }, [dispatch]);
 
   return (
